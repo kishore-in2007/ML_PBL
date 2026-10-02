@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Vithara Recovery</string>
+    <string name="title_activity_main">Vithara Recovery</string>
+    <string name="package_name">com.vithara.woundrecovery</string>
+    <string name="custom_url_scheme">com.vithara.woundrecovery</string>
+</resources>

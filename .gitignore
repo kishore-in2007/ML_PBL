@@ -1,0 +1,114 @@
+# =============================================================================
+# VITHARA PROJECT GITIGNORE
+# =============================================================================
+
+# Virtual Environments
+venv/
+.venv/
+env/
+Backend/venv/
+
+# Node & Frontend Build
+node_modules/
+Frontend/node_modules/
+dist/
+Frontend/dist/
+build/
+Frontend/dist-electron/
+
+# Python Cache & Bytecode
+__pycache__/
+Backend/**/__pycache__/
+Backend/app/**/__pycache__/
+Backend/Ml_training/**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Databases and Local Runtime Uploads
+*.db
+*.sqlite3
+Backend/ps5.db
+Backend/workflow_test.db
+Backend/uploads/
+Backend/workflow_test_uploads/
+uploads/
+
+# Runtime Logs
+*.log
+Backend/*.log
+Frontend/*.log
+
+# Environment & Secret Files
+.env
+.env.*
+!.env.example
+Backend/.env
+Backend/.env.*
+!Backend/.env.example
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large Raw Image Folders (Use vithara_clean_dataset.zip for reproducible dataset)
+Backend/Ml_training/data/raw/
+
+# Duplicate Download Checkpoints
+*(1).pth
+*(2).pth
+
+# =============================================================================
+# EXCLUDE ALL REPORT & PBL DOCUMENTATION ASSETS
+# =============================================================================
+# Report PDFs & References
+*.pdf
+vithara_pbl_report.pdf
+vithara_pbl_poster.pdf
+Online_Payment_Fraud_Detection_PBL_Report*.pdf
+PrepPilot_ML_PBL_REPORT*.pdf
+DFUC2021.pdf
+dfuc2021n.pdf
+DFUC2022.pdf
+FUSeg.pdf
+PS5_Post_Surgery_Recovery_Monitor.pdf
+test_canvas.pdf
+test_round.pdf
+
+# Report Generation & Layout Scripts
+Backend/Ml_training/generate_full_vithara_pdf.py
+Backend/Ml_training/generate_vithara_poster.py
+Backend/Ml_training/pages_*.py
+Backend/Ml_training/report_framework.py
+Backend/Ml_training/test_gen_part1.py
+Backend/Ml_training/start_builder.py
+Backend/Ml_training/report_figures/
+Backend/Ml_training/siragu_watermark*.png
+test_canvas_prelims.py
+measure_pages.py
+measure_part1.py
+audit_final_heights.py
+list_page_ranges.py
+scratch_measure.py
+generate_extra_figures.py
+test_tags.py
+sample_detailed_breakdown.txt
+sample_pages.txt
+vithara_pages.txt
+
+# Rendered Report Previews, Extracted Logos & Watermarks
+ref_page_*.png
+new_page_*.png
+our_page_*.png
+template_page_*.png
+extracted_*.png
+p15_*.png
+ref_p1_img_*.jpg
+test_round.png
+vithara_report_page_*.png
+vithara_pbl_poster.png
+siragu_watermark*.png
+output/

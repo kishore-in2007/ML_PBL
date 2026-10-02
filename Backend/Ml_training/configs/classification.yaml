@@ -1,0 +1,30 @@
+project_name: post_surgery_recovery_monitor
+seed: 42
+
+data:
+  root: data/processed/classification
+  image_size: 384
+  batch_size: 16
+  num_workers: 4
+  val_split: 0.2
+  classes:
+    - normal
+    - mild_concern
+    - urgent
+
+model:
+  name: tf_efficientnetv2_s.in21k_ft_in1k
+  pretrained: true
+  dropout: 0.2
+
+training:
+  epochs: 30
+  learning_rate: 0.0003
+  weight_decay: 0.00001
+  patience: 6
+  mixed_precision: true
+  output_dir: models/checkpoints
+
+inference:
+  confidence_threshold: 0.7
+  human_review_label: needs_clinician_review

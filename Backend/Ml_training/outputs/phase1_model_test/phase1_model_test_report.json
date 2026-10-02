@@ -1,0 +1,155 @@
+{
+  "model": {
+    "checkpoint": "models/checkpoints/phase1_final/best.pt",
+    "onnx": "models/onnx/wound_classifier_phase1_final.onnx",
+    "classes": [
+      "mild_concern",
+      "normal",
+      "urgent"
+    ],
+    "input_size": "1x3x224x224",
+    "output": "risk_logits"
+  },
+  "validation": {
+    "validation_loss": 1.3916627260354848,
+    "validation_accuracy": 0.4911242603550296,
+    "validation_samples": 169.0,
+    "macro_f1": 0.35478210497097545,
+    "weighted_f1": 0.4402697352499292,
+    "per_class": {
+      "mild_concern": {
+        "precision": 0.5537190082644629,
+        "recall": 0.7976190476190477,
+        "f1": 0.6536585365853659,
+        "support": 84.0
+      },
+      "normal": {
+        "precision": 0.4,
+        "recall": 0.27450980392156865,
+        "f1": 0.32558139534883723,
+        "support": 51.0
+      },
+      "urgent": {
+        "precision": 0.15384615384615385,
+        "recall": 0.058823529411764705,
+        "f1": 0.0851063829787234,
+        "support": 34.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        67,
+        12,
+        5
+      ],
+      [
+        31,
+        14,
+        6
+      ],
+      [
+        23,
+        9,
+        2
+      ]
+    ]
+  },
+  "synthetic_generated_test": {
+    "images": 9,
+    "raw_label_agreement": 0.3333333333333333,
+    "note": "Synthetic images are pipeline tests, not medical accuracy evidence.",
+    "predictions": [
+      {
+        "image": "outputs\\phase1_model_test\\generated_images\\normal_01.png",
+        "expected_label": "normal",
+        "predicted_label": "mild_concern",
+        "raw_label": "mild_concern",
+        "confidence": 0.9911,
+        "routed_to_human": false,
+        "expected_match_raw": false
+      },
+      {
+        "image": "outputs\\phase1_model_test\\generated_images\\normal_02.png",
+        "expected_label": "normal",
+        "predicted_label": "mild_concern",
+        "raw_label": "mild_concern",
+        "confidence": 0.9823,
+        "routed_to_human": false,
+        "expected_match_raw": false
+      },
+      {
+        "image": "outputs\\phase1_model_test\\generated_images\\normal_03.png",
+        "expected_label": "normal",
+        "predicted_label": "mild_concern",
+        "raw_label": "mild_concern",
+        "confidence": 0.9918,
+        "routed_to_human": false,
+        "expected_match_raw": false
+      },
+      {
+        "image": "outputs\\phase1_model_test\\generated_images\\medium_01.png",
+        "expected_label": "mild_concern",
+        "predicted_label": "mild_concern",
+        "raw_label": "mild_concern",
+        "confidence": 0.9869,
+        "routed_to_human": false,
+        "expected_match_raw": true
+      },
+      {
+        "image": "outputs\\phase1_model_test\\generated_images\\medium_02.png",
+        "expected_label": "mild_concern",
+        "predicted_label": "mild_concern",
+        "raw_label": "mild_concern",
+        "confidence": 0.9842,
+        "routed_to_human": false,
+        "expected_match_raw": true
+      },
+      {
+        "image": "outputs\\phase1_model_test\\generated_images\\medium_03.png",
+        "expected_label": "mild_concern",
+        "predicted_label": "mild_concern",
+        "raw_label": "mild_concern",
+        "confidence": 0.9853,
+        "routed_to_human": false,
+        "expected_match_raw": true
+      },
+      {
+        "image": "outputs\\phase1_model_test\\generated_images\\urgent_01.png",
+        "expected_label": "urgent",
+        "predicted_label": "mild_concern",
+        "raw_label": "mild_concern",
+        "confidence": 0.8371,
+        "routed_to_human": false,
+        "expected_match_raw": false
+      },
+      {
+        "image": "outputs\\phase1_model_test\\generated_images\\urgent_02.png",
+        "expected_label": "urgent",
+        "predicted_label": "mild_concern",
+        "raw_label": "mild_concern",
+        "confidence": 0.8163,
+        "routed_to_human": false,
+        "expected_match_raw": false
+      },
+      {
+        "image": "outputs\\phase1_model_test\\generated_images\\urgent_03.png",
+        "expected_label": "urgent",
+        "predicted_label": "mild_concern",
+        "raw_label": "mild_concern",
+        "confidence": 0.9289,
+        "routed_to_human": false,
+        "expected_match_raw": false
+      }
+    ]
+  },
+  "onnx_consistency": {
+    "max_abs_logit_difference_vs_pytorch": 5.25e-06
+  },
+  "segmentation": {
+    "segmentation_pairs": 2000,
+    "sampled_masks": 25,
+    "mean_mask_area_ratio": 0.0413,
+    "min_mask_area_ratio": 0.002,
+    "max_mask_area_ratio": 0.3504
+  }
+}

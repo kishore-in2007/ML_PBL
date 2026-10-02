@@ -1,0 +1,13 @@
+{
+  "appId": "com.vithara.woundrecovery",
+  "appName": "Vithara Recovery",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}

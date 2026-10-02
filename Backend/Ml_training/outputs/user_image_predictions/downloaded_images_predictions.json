@@ -1,0 +1,895 @@
+[
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0001.jpg",
+    "image_size": [
+      560,
+      389
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.8783,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.8783,
+      "normal": 0.0355,
+      "urgent": 0.0861
+    },
+    "simple_red_area_pixels": 37453,
+    "simple_red_area_ratio": 0.1719,
+    "onnx_max_abs_logit_diff": 5.25e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0002.jpg",
+    "image_size": [
+      560,
+      389
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "urgent",
+    "confidence": 0.5862,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.3854,
+      "normal": 0.0284,
+      "urgent": 0.5862
+    },
+    "simple_red_area_pixels": 47385,
+    "simple_red_area_ratio": 0.2175,
+    "onnx_max_abs_logit_diff": 3.81e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0003.jpg",
+    "image_size": [
+      560,
+      379
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "mild_concern",
+    "confidence": 0.5033,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.5033,
+      "normal": 0.296,
+      "urgent": 0.2008
+    },
+    "simple_red_area_pixels": 59285,
+    "simple_red_area_ratio": 0.2793,
+    "onnx_max_abs_logit_diff": 3.4e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0004.jpg",
+    "image_size": [
+      560,
+      444
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.9481,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.9481,
+      "normal": 0.0251,
+      "urgent": 0.0267
+    },
+    "simple_red_area_pixels": 79201,
+    "simple_red_area_ratio": 0.3185,
+    "onnx_max_abs_logit_diff": 3.22e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0005.jpg",
+    "image_size": [
+      560,
+      389
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "normal",
+    "confidence": 0.5416,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.33,
+      "normal": 0.5416,
+      "urgent": 0.1283
+    },
+    "simple_red_area_pixels": 50482,
+    "simple_red_area_ratio": 0.2317,
+    "onnx_max_abs_logit_diff": 7.45e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0006.jpg",
+    "image_size": [
+      560,
+      409
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.8853,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.8853,
+      "normal": 0.0125,
+      "urgent": 0.1022
+    },
+    "simple_red_area_pixels": 43659,
+    "simple_red_area_ratio": 0.1906,
+    "onnx_max_abs_logit_diff": 7.63e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0007.jpg",
+    "image_size": [
+      560,
+      386
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.9646,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.9646,
+      "normal": 0.0126,
+      "urgent": 0.0228
+    },
+    "simple_red_area_pixels": 117789,
+    "simple_red_area_ratio": 0.5449,
+    "onnx_max_abs_logit_diff": 5.25e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0008.jpg",
+    "image_size": [
+      560,
+      386
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "mild_concern",
+    "confidence": 0.6663,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.6663,
+      "normal": 0.0694,
+      "urgent": 0.2644
+    },
+    "simple_red_area_pixels": 108166,
+    "simple_red_area_ratio": 0.5004,
+    "onnx_max_abs_logit_diff": 1.07e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0009.jpg",
+    "image_size": [
+      560,
+      378
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.7838,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.7838,
+      "normal": 0.0468,
+      "urgent": 0.1693
+    },
+    "simple_red_area_pixels": 67126,
+    "simple_red_area_ratio": 0.3171,
+    "onnx_max_abs_logit_diff": 3.1e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0010.jpg",
+    "image_size": [
+      560,
+      354
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "mild_concern",
+    "confidence": 0.4822,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.4822,
+      "normal": 0.1452,
+      "urgent": 0.3726
+    },
+    "simple_red_area_pixels": 48098,
+    "simple_red_area_ratio": 0.2426,
+    "onnx_max_abs_logit_diff": 3.05e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0011.jpg",
+    "image_size": [
+      560,
+      364
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "urgent",
+    "confidence": 0.5714,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.3632,
+      "normal": 0.0654,
+      "urgent": 0.5714
+    },
+    "simple_red_area_pixels": 90243,
+    "simple_red_area_ratio": 0.4427,
+    "onnx_max_abs_logit_diff": 2.15e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0012.jpg",
+    "image_size": [
+      560,
+      364
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.9991,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.9991,
+      "normal": 0.0002,
+      "urgent": 0.0007
+    },
+    "simple_red_area_pixels": 47973,
+    "simple_red_area_ratio": 0.2353,
+    "onnx_max_abs_logit_diff": 3.81e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0013.jpg",
+    "image_size": [
+      560,
+      364
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.9806,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.9806,
+      "normal": 0.0035,
+      "urgent": 0.0159
+    },
+    "simple_red_area_pixels": 71115,
+    "simple_red_area_ratio": 0.3489,
+    "onnx_max_abs_logit_diff": 4.84e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0014.jpg",
+    "image_size": [
+      560,
+      400
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.7329,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.7329,
+      "normal": 0.1955,
+      "urgent": 0.0717
+    },
+    "simple_red_area_pixels": 76322,
+    "simple_red_area_ratio": 0.3407,
+    "onnx_max_abs_logit_diff": 5.66e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0015.jpg",
+    "image_size": [
+      560,
+      392
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.8742,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.8742,
+      "normal": 0.0142,
+      "urgent": 0.1116
+    },
+    "simple_red_area_pixels": 76847,
+    "simple_red_area_ratio": 0.3501,
+    "onnx_max_abs_logit_diff": 4.05e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0016.jpg",
+    "image_size": [
+      560,
+      347
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.759,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.759,
+      "normal": 0.0912,
+      "urgent": 0.1498
+    },
+    "simple_red_area_pixels": 74402,
+    "simple_red_area_ratio": 0.3829,
+    "onnx_max_abs_logit_diff": 2.19e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0017.jpg",
+    "image_size": [
+      560,
+      358
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.8873,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.8873,
+      "normal": 0.0226,
+      "urgent": 0.0902
+    },
+    "simple_red_area_pixels": 60344,
+    "simple_red_area_ratio": 0.301,
+    "onnx_max_abs_logit_diff": 8.58e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0018.jpg",
+    "image_size": [
+      560,
+      381
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.7597,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.7597,
+      "normal": 0.0622,
+      "urgent": 0.1781
+    },
+    "simple_red_area_pixels": 60775,
+    "simple_red_area_ratio": 0.2848,
+    "onnx_max_abs_logit_diff": 5.25e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0020.jpg",
+    "image_size": [
+      560,
+      369
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "mild_concern",
+    "confidence": 0.6987,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.6987,
+      "normal": 0.098,
+      "urgent": 0.2033
+    },
+    "simple_red_area_pixels": 123716,
+    "simple_red_area_ratio": 0.5987,
+    "onnx_max_abs_logit_diff": 3.93e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0022.jpg",
+    "image_size": [
+      560,
+      374
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.8326,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.8326,
+      "normal": 0.0363,
+      "urgent": 0.1311
+    },
+    "simple_red_area_pixels": 12280,
+    "simple_red_area_ratio": 0.0586,
+    "onnx_max_abs_logit_diff": 3.22e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0023.jpg",
+    "image_size": [
+      560,
+      374
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.925,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.925,
+      "normal": 0.0145,
+      "urgent": 0.0605
+    },
+    "simple_red_area_pixels": 51642,
+    "simple_red_area_ratio": 0.2466,
+    "onnx_max_abs_logit_diff": 4.29e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0024.jpg",
+    "image_size": [
+      560,
+      374
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "mild_concern",
+    "confidence": 0.5537,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.5537,
+      "normal": 0.2025,
+      "urgent": 0.2438
+    },
+    "simple_red_area_pixels": 37311,
+    "simple_red_area_ratio": 0.1781,
+    "onnx_max_abs_logit_diff": 1.37e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0025.jpg",
+    "image_size": [
+      560,
+      370
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "urgent",
+    "confidence": 0.6802,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.3011,
+      "normal": 0.0187,
+      "urgent": 0.6802
+    },
+    "simple_red_area_pixels": 51931,
+    "simple_red_area_ratio": 0.2506,
+    "onnx_max_abs_logit_diff": 3.81e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0026.jpg",
+    "image_size": [
+      560,
+      417
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.8509,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.8509,
+      "normal": 0.0103,
+      "urgent": 0.1388
+    },
+    "simple_red_area_pixels": 99211,
+    "simple_red_area_ratio": 0.4249,
+    "onnx_max_abs_logit_diff": 3.81e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0027.jpg",
+    "image_size": [
+      560,
+      376
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.7948,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.7948,
+      "normal": 0.1589,
+      "urgent": 0.0464
+    },
+    "simple_red_area_pixels": 52880,
+    "simple_red_area_ratio": 0.2511,
+    "onnx_max_abs_logit_diff": 1.67e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0028.jpg",
+    "image_size": [
+      560,
+      376
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.9855,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.9855,
+      "normal": 0.0084,
+      "urgent": 0.0061
+    },
+    "simple_red_area_pixels": 88326,
+    "simple_red_area_ratio": 0.4195,
+    "onnx_max_abs_logit_diff": 7.75e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0029.jpg",
+    "image_size": [
+      560,
+      375
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.9052,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.9052,
+      "normal": 0.0174,
+      "urgent": 0.0774
+    },
+    "simple_red_area_pixels": 21191,
+    "simple_red_area_ratio": 0.1009,
+    "onnx_max_abs_logit_diff": 3.81e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0030.jpg",
+    "image_size": [
+      560,
+      375
+    ],
+    "final_label": "normal",
+    "raw_label": "normal",
+    "confidence": 0.7199,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.2109,
+      "normal": 0.7199,
+      "urgent": 0.0691
+    },
+    "simple_red_area_pixels": 50334,
+    "simple_red_area_ratio": 0.2397,
+    "onnx_max_abs_logit_diff": 2.29e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0031.jpg",
+    "image_size": [
+      560,
+      409
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "mild_concern",
+    "confidence": 0.5401,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.5401,
+      "normal": 0.3621,
+      "urgent": 0.0979
+    },
+    "simple_red_area_pixels": 61491,
+    "simple_red_area_ratio": 0.2685,
+    "onnx_max_abs_logit_diff": 7.07e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-0032.jpg",
+    "image_size": [
+      560,
+      382
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.7736,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.7736,
+      "normal": 0.0779,
+      "urgent": 0.1485
+    },
+    "simple_red_area_pixels": 93095,
+    "simple_red_area_ratio": 0.4352,
+    "onnx_max_abs_logit_diff": 3.34e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-2-1.jpg",
+    "image_size": [
+      560,
+      370
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.9456,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.9456,
+      "normal": 0.0114,
+      "urgent": 0.043
+    },
+    "simple_red_area_pixels": 22004,
+    "simple_red_area_ratio": 0.1062,
+    "onnx_max_abs_logit_diff": 8.11e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-2-2.jpg",
+    "image_size": [
+      560,
+      370
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.9924,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.9924,
+      "normal": 0.0041,
+      "urgent": 0.0036
+    },
+    "simple_red_area_pixels": 30843,
+    "simple_red_area_ratio": 0.1489,
+    "onnx_max_abs_logit_diff": 1.025e-05
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-2-3.jpg",
+    "image_size": [
+      560,
+      370
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.9548,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.9548,
+      "normal": 0.0058,
+      "urgent": 0.0394
+    },
+    "simple_red_area_pixels": 12946,
+    "simple_red_area_ratio": 0.0625,
+    "onnx_max_abs_logit_diff": 6.91e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-2-4.jpg",
+    "image_size": [
+      560,
+      370
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "urgent",
+    "confidence": 0.5206,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.4588,
+      "normal": 0.0205,
+      "urgent": 0.5206
+    },
+    "simple_red_area_pixels": 15937,
+    "simple_red_area_ratio": 0.0769,
+    "onnx_max_abs_logit_diff": 2.38e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-3-2.jpg",
+    "image_size": [
+      560,
+      370
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.8021,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.8021,
+      "normal": 0.0877,
+      "urgent": 0.1103
+    },
+    "simple_red_area_pixels": 6502,
+    "simple_red_area_ratio": 0.0314,
+    "onnx_max_abs_logit_diff": 7.03e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-3-3.jpg",
+    "image_size": [
+      560,
+      370
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "mild_concern",
+    "confidence": 0.4382,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.4382,
+      "normal": 0.1266,
+      "urgent": 0.4353
+    },
+    "simple_red_area_pixels": 48419,
+    "simple_red_area_ratio": 0.2337,
+    "onnx_max_abs_logit_diff": 5.33e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-3-4.jpg",
+    "image_size": [
+      560,
+      379
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "normal",
+    "confidence": 0.3995,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.3955,
+      "normal": 0.3995,
+      "urgent": 0.205
+    },
+    "simple_red_area_pixels": 87618,
+    "simple_red_area_ratio": 0.4128,
+    "onnx_max_abs_logit_diff": 5.19e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-3-5.jpg",
+    "image_size": [
+      560,
+      379
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "normal",
+    "confidence": 0.4681,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.1346,
+      "normal": 0.4681,
+      "urgent": 0.3973
+    },
+    "simple_red_area_pixels": 7403,
+    "simple_red_area_ratio": 0.0349,
+    "onnx_max_abs_logit_diff": 2.97e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer-3-6.jpg",
+    "image_size": [
+      560,
+      379
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.702,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.702,
+      "normal": 0.1371,
+      "urgent": 0.1609
+    },
+    "simple_red_area_pixels": 15886,
+    "simple_red_area_ratio": 0.0748,
+    "onnx_max_abs_logit_diff": 1.018e-05
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer1-1.jpg",
+    "image_size": [
+      560,
+      382
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.9472,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.9472,
+      "normal": 0.0157,
+      "urgent": 0.0371
+    },
+    "simple_red_area_pixels": 39169,
+    "simple_red_area_ratio": 0.1831,
+    "onnx_max_abs_logit_diff": 1.07e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer1-2.jpg",
+    "image_size": [
+      560,
+      382
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "mild_concern",
+    "confidence": 0.4304,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.4304,
+      "normal": 0.2955,
+      "urgent": 0.274
+    },
+    "simple_red_area_pixels": 36436,
+    "simple_red_area_ratio": 0.1703,
+    "onnx_max_abs_logit_diff": 5.33e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer1-3.jpg",
+    "image_size": [
+      560,
+      382
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.9278,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.9278,
+      "normal": 0.0456,
+      "urgent": 0.0266
+    },
+    "simple_red_area_pixels": 63848,
+    "simple_red_area_ratio": 0.2985,
+    "onnx_max_abs_logit_diff": 2.92e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer1-4.jpg",
+    "image_size": [
+      560,
+      382
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "mild_concern",
+    "confidence": 0.5081,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.5081,
+      "normal": 0.0629,
+      "urgent": 0.429
+    },
+    "simple_red_area_pixels": 82942,
+    "simple_red_area_ratio": 0.3877,
+    "onnx_max_abs_logit_diff": 3.35e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer1-5.jpg",
+    "image_size": [
+      560,
+      356
+    ],
+    "final_label": "needs_clinician_review",
+    "raw_label": "mild_concern",
+    "confidence": 0.5031,
+    "routed_to_human": true,
+    "class_probabilities": {
+      "mild_concern": 0.5031,
+      "normal": 0.0416,
+      "urgent": 0.4553
+    },
+    "simple_red_area_pixels": 120568,
+    "simple_red_area_ratio": 0.6048,
+    "onnx_max_abs_logit_diff": 4.65e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer1-6.jpg",
+    "image_size": [
+      560,
+      367
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.8394,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.8394,
+      "normal": 0.0368,
+      "urgent": 0.1238
+    },
+    "simple_red_area_pixels": 4567,
+    "simple_red_area_ratio": 0.0222,
+    "onnx_max_abs_logit_diff": 4.83e-06
+  },
+  {
+    "image": "Downloaded_Images\\foot-ulcer1-8.jpg",
+    "image_size": [
+      560,
+      382
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.9105,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.9105,
+      "normal": 0.0142,
+      "urgent": 0.0753
+    },
+    "simple_red_area_pixels": 10391,
+    "simple_red_area_ratio": 0.0486,
+    "onnx_max_abs_logit_diff": 5.25e-06
+  },
+  {
+    "image": "Downloaded_Images\\introslide.jpg",
+    "image_size": [
+      560,
+      388
+    ],
+    "final_label": "mild_concern",
+    "raw_label": "mild_concern",
+    "confidence": 0.9859,
+    "routed_to_human": false,
+    "class_probabilities": {
+      "mild_concern": 0.9859,
+      "normal": 0.0003,
+      "urgent": 0.0138
+    },
+    "simple_red_area_pixels": 77092,
+    "simple_red_area_ratio": 0.3548,
+    "onnx_max_abs_logit_diff": 3.34e-06
+  }
+]

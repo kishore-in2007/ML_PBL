@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: post-surgery-recovery-monitor
+Version: 0.1.0
+Summary: Phase 1 AI model foundation for post-surgery wound monitoring.
+Requires-Python: >=3.10

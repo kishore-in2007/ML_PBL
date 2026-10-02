@@ -1,0 +1,30 @@
+project_name: post_surgery_recovery_monitor_mvp
+seed: 42
+
+data:
+  root: data/processed/classification
+  image_size: 224
+  batch_size: 8
+  num_workers: 0
+  val_split: 0.2
+  classes:
+    - normal
+    - mild_concern
+    - urgent
+
+model:
+  name: tf_efficientnetv2_s.in21k_ft_in1k
+  pretrained: true
+  dropout: 0.25
+
+training:
+  epochs: 5
+  learning_rate: 0.0002
+  weight_decay: 0.00001
+  patience: 3
+  mixed_precision: false
+  output_dir: models/checkpoints/mvp
+
+inference:
+  confidence_threshold: 0.65
+  human_review_label: needs_clinician_review

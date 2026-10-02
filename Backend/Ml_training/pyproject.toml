@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "post-surgery-recovery-monitor"
+version = "0.1.0"
+description = "Phase 1 AI model foundation for post-surgery wound monitoring."
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
