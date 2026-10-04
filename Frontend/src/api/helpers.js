@@ -3,7 +3,9 @@ import { getBaseUrl } from "./api";
 export function mediaUrl(path) {
   if (!path) return "";
   if (path.startsWith("http://") || path.startsWith("https://")) return path;
-  return `${getBaseUrl()}${path}`;
+  const base = getBaseUrl().replace(/\/+$/, "");
+  const normalizedPath = path.startsWith("/") ? path : `/${path}`;
+  return `${base}${normalizedPath}`;
 }
 
 export function getStoredUser() {

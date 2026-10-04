@@ -93,11 +93,15 @@ measure_part1.py
 audit_final_heights.py
 list_page_ranges.py
 scratch_measure.py
+scratch_*
 generate_extra_figures.py
+generate_report_charts.py
 test_tags.py
 sample_detailed_breakdown.txt
 sample_pages.txt
 vithara_pages.txt
+Backend/Ml_training/build_vithara_33p_report.py
+Backend/Ml_training/report_renders/
 
 # Rendered Report Previews, Extracted Logos & Watermarks
 ref_page_*.png
@@ -110,5 +114,8 @@ ref_p1_img_*.jpg
 test_round.png
 vithara_report_page_*.png
 vithara_pbl_poster.png
+audit_page_*.png
+official_siragu_watermark*.png
 siragu_watermark*.png
 output/
+

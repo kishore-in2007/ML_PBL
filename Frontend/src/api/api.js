@@ -2,11 +2,19 @@ import axios from "axios";
 
 export const getBaseUrl = () => {
   if (typeof window !== "undefined") {
+    // 1. Stored user preference in browser
     const custom = localStorage.getItem("vithara_api_url");
     if (custom && custom.trim()) {
       return custom.trim().replace(/\/+$/, "");
     }
-    // Check if running inside Capacitor native Android app
+
+    // 2. Vite environment variable (set in Vercel project settings or .env)
+    const envUrl = import.meta.env.VITE_API_BASE_URL;
+    if (envUrl && envUrl.trim()) {
+      return envUrl.trim().replace(/\/+$/, "");
+    }
+
+    // 3. Capacitor native Android app runtime
     const isCapacitor = Boolean(
       window.Capacitor ||
       window.location.protocol === "capacitor:" ||
@@ -15,15 +23,15 @@ export const getBaseUrl = () => {
     if (isCapacitor) {
       return "http://10.206.162.226:8000";
     }
-    // Check if accessed through LAN IP on mobile browser
-    if (
-      window.location.hostname &&
-      window.location.hostname !== "localhost" &&
-      window.location.hostname !== "127.0.0.1"
-    ) {
-      return `${window.location.protocol}//${window.location.hostname}:8000`;
+
+    // 4. Access via local private LAN IP (e.g. 192.168.x.x, 10.x.x.x, 172.16-31.x.x)
+    const hostname = window.location.hostname || "";
+    const isLanIp = /^(10\.\d{1,3}\.\d{1,3}\.\d{1,3}|192\.168\.\d{1,3}\.\d{1,3}|172\.(1[6-9]|2\d|3[0-1])\.\d{1,3}\.\d{1,3})$/.test(hostname);
+    if (isLanIp) {
+      return `${window.location.protocol}//${hostname}:8000`;
     }
   }
+
   return import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
 };
 

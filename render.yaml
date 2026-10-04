@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: vithara-backend
+    env: docker
+    dockerfilePath: Backend/Dockerfile
+    dockerContext: Backend
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: DATABASE_URL
+        value: sqlite:////app/vithara.db
+      - key: STORAGE_BACKEND
+        value: local
+      - key: LOCAL_UPLOAD_DIR
+        value: /app/uploads
