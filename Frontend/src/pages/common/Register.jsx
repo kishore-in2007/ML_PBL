@@ -46,10 +46,10 @@ export default function Register({
   };
 
   return (
-    <>
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-surface-mint rounded-full blur-[120px] opacity-40 -mr-48 -mt-48 pointer-events-none"></div>
-      <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-secondary-fixed rounded-full blur-[100px] opacity-20 -ml-32 -mb-32 pointer-events-none"></div>
-      <header className="w-full max-w-md px-container-padding-mobile mb-8 text-center animate-fade-in">
+    <div className="min-h-screen w-full flex flex-col items-center justify-center p-4 sm:p-6 bg-gradient-to-br from-[#eef6f0] via-[#f7faf8] to-[#e8f1eb] relative overflow-x-hidden">
+      <div className="fixed top-0 right-0 w-[500px] h-[500px] bg-emerald-100 rounded-full blur-[120px] opacity-40 -mr-48 -mt-48 pointer-events-none"></div>
+      <div className="fixed bottom-0 left-0 w-[400px] h-[400px] bg-teal-100 rounded-full blur-[100px] opacity-30 -ml-32 -mb-32 pointer-events-none"></div>
+      <header className="w-full max-w-md px-container-padding-mobile mb-6 text-center animate-fade-in relative z-10">
 
         <div className="inline-flex items-center justify-center mb-6">
 
@@ -205,11 +205,9 @@ export default function Register({
         </div>
 
       </main>
-      <footer className="mt-auto py-8 text-center px-4">
-
+      <footer className="mt-6 py-4 text-center px-4 relative z-10">
         <p className="font-caption text-caption text-outline">© 2024 Vithara Recovery Monitor. All Rights Reserved.</p>
-
       </footer>
-    </>
+    </div>
   );
 }
